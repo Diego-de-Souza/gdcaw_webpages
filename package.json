@@ -1,0 +1,14 @@
+{
+  "name": "dev_web_site",
+  "version": "1.0.0",
+  "description": "Desenvolvimento do web site pessoal de developer Web site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Diego de Souza",
+  "license": "ISC",
+  "dependencies": {
+    "bulma": "^0.9.4"
+  }
+}

@@ -1,0 +1,122 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(34, 33, 33);
+}
+
+header {
+    display: flex;
+    width: 100%;
+    height: 3vh;
+}
+main {
+    display: flex;
+    height: 94vh;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.encap {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+main h1 {
+    display: block;
+    text-align: center;
+    margin-bottom: 40px;
+    color: rgb(152, 192, 226);
+    
+}
+
+/*Animação de entrada do texto Bem vindo sendo escrito*/
+    h1 {
+        width: 14ch;
+        animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+        white-space: nowrap;
+        overflow: hidden;
+        border-right: 3px solid;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 2em;
+    }
+
+    @keyframes typing {
+        from {
+            width: 0
+        }
+    }
+
+    @keyframes blink {
+        50% {
+            border-color: transparent
+        }
+    }
+
+/* parte da animação da seleção de linguagem*/
+.flip-select {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 20px;
+}
+
+#flip-select-inner {
+    width: 100%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 150%;
+    color: rgb(152, 192, 226);
+}
+
+#select-language {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    justify-content: space-around;
+}
+
+.icon-select {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: rgb(100, 197, 137);
+    transition: 1.5s;
+}
+ 
+.icon-select p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: rgb(152, 192, 226);
+}
+
+.icon-select:hover {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: 1.5s;
+}
+
+#container-img{
+    display: flex;
+    width: 100%;
+    height: 40%;
+    flex-direction: column;
+    background-color: blueviolet;
+
+}
+
+#figura-footer {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-size: 100%;
+    backdrop-filter: blur(2px);
+    
+}
