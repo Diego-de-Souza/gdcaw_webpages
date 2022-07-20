@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+#icone_menu_responsivo{
+    display: block;
+}
+
+#menu-principal {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+}

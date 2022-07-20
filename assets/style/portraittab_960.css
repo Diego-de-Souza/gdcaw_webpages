@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+/*estilização area de serviços*/
+#caixaVideo{
+    height: 70vh;
+}
+
+#player {
+    width: 75%;
+}
+
+.servicos_item {
+    width: 95%;
+}
+
+.servicos_descritivo p {
+    text-indent: 20px;
+    margin-top: 20px;
+    font-size: 20px;
+    width: 90%;
+    text-align: justify;
+}
+.servicos_item h2 {
+    font-size: 25px;
+    text-align: center;
+}
+
+.servicos_item p {
+    font-size: 16px;
+}
+
+/* estilização da area de contato*/
+
+.container {
+    width: 70%;
+}
