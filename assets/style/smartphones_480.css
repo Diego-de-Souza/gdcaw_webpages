@@ -4,11 +4,7 @@
     display: block;
 }
 
-#menu-principal {
-    display: none;
-    flex-direction: column;
-    position: absolute;
-}
+
 
 .container {
     width: 100%;

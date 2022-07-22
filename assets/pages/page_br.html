@@ -1,50 +1,56 @@
 <!DOCTYPE html>
 <html lang="Pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DGCAW - Grupo de Souza criando arte em website</title>
-    <link rel="stylesheet" href="../style/style_geral.css">
-    <link rel="stylesheet" href="../style/style_icon_history.css">
-    <link rel="shortcut icon" href="../../logo_GDCAW.ico" type="image/x-icon">
-    <link rel="stylesheet" href="../style/slider.css">
-    <link rel="stylesheet" href="../style/landscapetab_1024.css" media="(max-width:1024px) and (min-width: 961px)">
-    <link rel="stylesheet" href="../style/portraittab_960.css" media="(max-width:960px) and (min-width: 769px)">
-
-    <link rel="stylesheet" href="../style/ipad_768.css" media="(max-width:768px) and (min-width: 721px)">
-    
-    <link rel="stylesheet" href="../style/smartphone_720.css" media="(max-width:720px) and (min-width: 531px)">
-
-    <link rel="stylesheet" href="../style/firsten_490.css" media="(max-width:530px) and (min-width: 321px)">
-
-    <link rel="stylesheet" href="../style/lowres_320.css" media="(max-width:320px) and (orientation: portrait)">
-          
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="../../logo_GDCAW.ico" type="image/x-icon">
+  <title>DGCAW - Grupo de Souza criando arte em website</title>
+  
+  <!--Estilização pagina, estilo geral-->
+  <link rel="stylesheet" href="../style/style_geral.css">
+  <!--Estilização do icone animado da seção historia-->
+  <link rel="stylesheet" href="../style/style_icon_history.css">
+  <!--Estilização do slider-->
+  <link rel="stylesheet" href="../style/slider.css">
+  <!--Estilizção para responsividade-->
+  <link rel="stylesheet" href="../style/laptop_1279.css" media="(max-width: 1279px)">
+  <link rel="stylesheet" href="../style/largetablete_960.css" media="(max-width: 960px)">
+  <link rel="stylesheet" href="../style/tablet-largesmartphone_768.css" media="(max-width: 768px)">
+  <link rel="stylesheet" href="../style/smartphones_480.css" media="(max-width: 480px)">
+         
 </head>
 <body onload="sliderMovel()">
-    <header>
-        <nav id="header_nav">
-            <div id="grupo_slogan">
-              <img id="logo" src="../img/BR/logo_CAW.png" alt="logo da GDCAW - Grupo de Souza Cirando Arte em Website" />
-              <div id="slogan">
-                <p>Grupo<br>De Souza<br>Criando<br>Arte em<br>Website</p>
-              </div>
-            </div>
-            <nav class="alinhamentodireita">
-                <a href="#" onclick="abreFechaMenu()" id="icone_menu_responsivo"><img id="iconResp" src="../img/menu_resp_fechado_32x32.png" alt="icone menu responsivo"></a>
-                <nav id="cx_nav">
-                    <ul id="menu-principal">
-                        <li><a                      id="afastamentomedia" href="#" onclick="abreFechaMenu()">Principal</a></li>
-                        <li><a href="#historia" onclick="abreFechaMenu()">Quem somos</a></li>
-                        <li><a href="#servicos" onclick="abreFechaMenu()">Nosso trabalho</a></li>
-                        <li><a href="#contato" onclick="abreFechaMenu()">Contato</a></li>
-                    </ul>
-                </nav>
-            </nav>
-        </nav>
-    </header>
+  
+  <header>
+    <nav id="navTopo">
 
-    <main>
+        <div id="alinhamentoEsquerda">
+            
+            <img src="../img/BR/logo_CAW.png" alt="logo" id="logo">
+            <div id="slogan">
+              <p>Grupo<br>De Souza<br>Criando<br>Arte em<br>Website</p>
+            </div>
+        </div>
+
+        <nav id="alinhamentoDireita">
+            <input type="checkbox" id="menuResp">
+            <label for="menuResp"><img id="iconResp" src="../img/menu_resp_fechado_32x32.png" alt="iconResp"></label>
+            <!--<a href="#" onclick="abreFechaMenu()" id="icone_menu_resp"><img id="iconResp" src="menu_resp_fechado_32x32.png" alt="iconResp"></a>-->
+            <div id="cx_nav">
+                <ul id="menu-principal" >
+                    <li><a href="#" onclick="abreFechaMenu()">Principal</a></li>
+                    <li><a href="#historia" onclick="abreFechaMenu()">Quem somos</a></li>
+                    <li><a href="#servicos" onclick="abreFechaMenu()">Nosso trabalho</a></li>
+                    <li><a href="#contato" onclick="abreFechaMenu()">Contato</a></li>
+                </ul>
+            </div>
+        </nav>
+    </nav>
+    
+  </header>
+              
+  <main>
         <section id="slide-principal">
             <div id="slider">
                 <div class="slides">
@@ -320,8 +326,8 @@
           </div>
       </section>
         
-    </main>
-    <footer>
+  </main>
+  <footer>
         <section id="ap_footer">
             <h3>GDCAW - Grupo De Souza criando arte em website</h3>
             <p>Somos uma empresa que coloca sua empresa na web, desenvolvendo páginas e materiais que aproximam seu produto do seu cliente.</p>
@@ -363,7 +369,7 @@
             <p>Site desenvolvido por <strong>GDCAW</strong></p>
             <p><strong>&copy; Todos direitos reservados 2022</strong></p>
         </section>
-    </footer>
+  </footer>
     
     <script src="../scripts/phone.js"></script>
 </body>

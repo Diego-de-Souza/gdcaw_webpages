@@ -1,0 +1,111 @@
+@charset "UTF-8";
+
+/** -- Estilizaçãodo menu para smartphone com menu hamburguer -- **/
+
+#iconResp{
+    display: block;
+    border-radius: 5px;
+    background-color: rgb(110, 110, 110);
+    padding: 4px;
+    float: right;
+    margin-top: 15px;
+    margin-right: 15px;
+}
+
+#cx_nav {
+    width: 100%;
+}
+
+#cx_nav ul{
+    display: flex;
+    width: 100%;
+    height: 50%;
+    flex-direction: column;
+    background-color: #222;
+    padding: 20px 0;
+    top: 60px;
+    right: -100%;
+    transition: all 0.8s ease;
+    position: fixed;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 0;
+}
+
+#cx_nav ul li {
+    width: 100%;
+    text-align: center;
+}
+
+#cx_nav ul a {
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    font-size: 1.5em;
+}
+
+#cx_nav ul a:hover {
+    width: 100%;
+}
+
+#menuResp:checked ~ #cx_nav ul {
+    right: 0;
+}
+
+
+/*estilização da are de serviços*/
+#caixaVideo{
+    display: flex;
+    background-color: #222;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 75vh;
+    border: 2px solid black;
+    margin-bottom: 20px;
+}
+
+#btns {
+    display: flex;
+    flex-direction: row;
+}
+
+#btnSom {
+    display: flex;
+    background-color: transparent;
+    background-image: url('../img/alto-falante-on.png');
+    background-size: 100%;
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+    border: none;
+    margin-right: 50px;  
+    
+}
+
+#btnplay {
+    display: flex;
+    background-color: transparent;
+    background-image: url('../img/btn_play.png');
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+    border: none;
+    margin-right: 50px;
+    margin-bottom: 30px;
+}
+
+#player {
+    width: 90%;
+}
+
+.servicos_item {
+    width: 100%;
+    padding-left: 10px;
+}
+
+/*Estilização d area de contato*/
+.container {
+    width: 70%;
+}
