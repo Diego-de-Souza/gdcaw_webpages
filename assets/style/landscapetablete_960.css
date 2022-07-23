@@ -1,0 +1,16 @@
+#caixaVideo{
+    flex-direction: column;
+    height: 500px;
+    margin: 0;
+    padding: 0;
+}
+
+#btns{
+    flex-direction: row;
+}
+
+#player {
+    width: 60%;
+    margin: 0;
+    padding: 0;
+}
