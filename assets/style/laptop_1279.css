@@ -1,5 +1,19 @@
 @charset "UTF-8";
 
+
+
+/** -- Estilização cabeçalho -- **/
+
+#cx_nav ul {
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+#cx_nav ul a {
+    padding: 15px 10px;
+    
+}
+
 .container {
     width: 60%;
 }

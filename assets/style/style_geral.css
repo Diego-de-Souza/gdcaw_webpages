@@ -152,8 +152,12 @@ header {
     border-radius: 10px;
 }
 
-
 /*estilização da area de serviços*/
+
+#servicos{
+    display: block;
+    width: 100%;
+}
 
 #caixaVideo{
     display: flex;
@@ -181,7 +185,7 @@ header {
     background-repeat: no-repeat;
     border: none;
     margin-right: 50px;  
-    
+    background-size: 100%;
 }
 
 #btnplay {
@@ -201,7 +205,6 @@ header {
     border-radius: 20px;
     width: 60%;
 }
-
 
 #servicos {
     display: flex;
@@ -234,11 +237,13 @@ header {
 }
 
 .servicos_descritivo {
-    display: block;
+    display: flex;
+    flex-direction: column;
     margin: 10px 5px 5px 20px;
 }
 
 .servicos_descritivo p {
+    display: block;
     text-indent: 20px;
     margin-top: 20px;
     font-size: 20px;
@@ -249,6 +254,8 @@ header {
     font-size: 40px;
     text-align: center;
 }
+
+
 
 /*Estilização de meios de contato*/
 
@@ -389,5 +396,3 @@ footer {
     display: block;
     text-align: center;
 }
-
-

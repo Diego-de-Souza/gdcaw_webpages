@@ -1,11 +1,48 @@
 @charset "UTF-8";
 
+* {
+    margin: 0;
+}
+
 #icone_menu_responsivo{
     display: block;
 }
 
+/*estilização da area de serviços*/
 
+#caixaVideo{
+    flex-direction: column;
+    height: 60vh;
+    margin: 0;
+    padding: 0;
+}
+
+#btns{
+    flex-direction: row;
+}
+
+#player {
+    width: 90%;
+    margin: 0;
+    padding: 0;
+}
+
+/*Estilização de meios de contato*/
 
 .container {
+    width: 90%;
+    margin: 0;
+}
+
+/*Estilização do rodapé*/
+
+.icone_pagamento {
+    width: 32px;
+    height: 32px;
+}
+
+.imgFooter {
+    display: block;
     width: 100%;
+    height: 100%;
 }
