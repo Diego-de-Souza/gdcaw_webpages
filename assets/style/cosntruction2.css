@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: url(../img/ES/img_fundo_construcao_2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    
+}
+
+#construction {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(226, 226, 226, 0.733);
+    width: 60%;
+    height: 60%;
+    margin: 20px;
+    padding: 30px;
+}
+
+#construction h1{
+    font-family: 'Anton', sem serifa;
+    font-size: 3rem;
+}
+
+#construction p{
+    font-size: 2rem ;
+    text-align: justify;
+}
