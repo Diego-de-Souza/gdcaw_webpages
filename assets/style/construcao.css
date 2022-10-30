@@ -31,6 +31,8 @@ body{
 }
 
 #construction p{
+    display: block;
+    width: 100%;
     font-size: 2rem ;
     text-align: justify;
 }
